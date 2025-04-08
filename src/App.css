@@ -1,0 +1,49 @@
+.navbar {
+  color: rgb(24, 88, 24);
+  font-style: italic;
+}
+
+.HomePage {
+  background-color: rgb(190, 197, 235);
+  background-size: cover;
+}
+
+.AboutPage {
+  background-color: rgb(123, 199, 224);
+  background-size: cover;
+}
+
+
+.ContactPage {
+  background-color: rgb(168, 231, 197);
+  background-size: cover;
+}
+
+.Image {
+  background-color: rgb(168, 231, 197);
+  height: 14cm;
+    background-image: url("https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover
+}
+
+.ImageContact {
+  background-color: rgb(168, 231, 197);
+  height: 8cm;
+    background-image: url("https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover
+}
+
+.paragraph {
+  color: blue;
+
+}
+
+.paragraphA {
+  color: rgb(156, 39, 39);
+  text-decoration:underline;
+}
+
+.paragraphB {
+  color: purple;
+
+}

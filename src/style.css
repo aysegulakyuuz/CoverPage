@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: rgb(89, 175, 89);
+}
+
+.about-us-container {
+  margin: 30px;
+  text-align: center;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: rgb(156, 41, 245);
+  background-color: rgba(238, 201, 238, 0.478);
+}
+
+.about-us-title {
+  color: rgb(0, 37, 0);
+}
+
+.about-us-button {
+  margin-bottom: 20px;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(94, 21, 229);
+}
+
+.about-us-list {
+  margin: 0;
+  padding: 0;
+}
+
+.about-us-list-item {
+  margin: 10px 0;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  font-family: system-ui, sans-serif;
+}
+
+.about-us-list-item img {
+}
+
+.about-us-list-item span {
+  margin: 10px 0;
+  flex-grow: 1;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 10px 0;
+  flex-grow: 1;
+}
+
+input,
+textarea {
+  margin: 10px 0;
+  flex-grow: 1;
+  padding: 8px;
+}
+
+
+.error {
+color: red;
+}
+
+.submit-button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: none;
+  margin: 10px 0;
+  flex-grow: 1;
+  border-radius: 5px;
+}
